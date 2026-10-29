@@ -1,0 +1,20 @@
+{
+  "name": "sgd-sso-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Puente OIDC entre el SGD legacy y el SSO de la Municipalidad Distrital de San Jerónimo. Etapa 1: login + callback + validación de identidad (sin crear sesión del SGD).",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.3",
+    "openid-client": "^6.1.7"
+  }
+}

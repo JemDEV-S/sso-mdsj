@@ -1,0 +1,6 @@
+/sso/vendor/
+/sso/node_modules/
+/sso/.env
+/sso/storage/*.key
+/sso/storage/app/private/keys/
+/.composer-cache/
